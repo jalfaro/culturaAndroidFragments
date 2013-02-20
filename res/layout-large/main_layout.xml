@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:orientation="horizontal" >
+    <fragment android:name="com.culturaandroid.demofragments.MenuFragment"
+              android:id="@+id/menufragment"
+              android:layout_weight=".35"
+              android:layout_width="0dp"
+              android:layout_height="fill_parent" />
+	<fragment android:name="com.culturaandroid.demofragments.DataFragment"
+              android:id="@+id/datafragment"
+              android:layout_weight=".65"
+              android:layout_width="0dp"
+              android:layout_height="fill_parent" />
+</LinearLayout>
